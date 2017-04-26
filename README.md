@@ -1,6 +1,6 @@
 # npmtest-angular
 
-#### test coverage for  [angular (v1.6.4)](http://angularjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-angular.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular.svg)](https://travis-ci.org/npmtest/node-npmtest-angular)
+#### basic test coverage for  [angular (v1.6.4)](http://angularjs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-angular.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular.svg)](https://travis-ci.org/npmtest/node-npmtest-angular)
 
 #### HTML enhanced for web apps
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-angular/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-angular/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-angular/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-angular/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-angular/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-angular/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-angular/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-angular/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.6.4"
+    "version": "1.6.4",
+    "bin": {}
 }
 ```
 
